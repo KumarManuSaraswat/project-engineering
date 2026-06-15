@@ -21,7 +21,7 @@ services:
         generateValue: true
       # CORS origin: must be a specific origin when using credentials: true.
       - key: CORS_ORIGIN
-        value: https://linkshelf-frontend.onrender.com   # TODO: replace with your real frontend URL
+        value: https://linkshelf-frontend-abc.onrender.com   # TODO: replace with your real frontend URL
 
   # ---- Frontend (Static Site) ----
   - type: web
@@ -37,7 +37,7 @@ services:
         value: production
       # Vite reads this at build time as import.meta.env.VITE_API_URL.
       - key: VITE_API_URL
-        value: https://linkshelf-api.onrender.com       # TODO: replace with your real backend URL
+        value: https://linkshelf-api-xyz.onrender.com       # TODO: replace with your real backend URL
 
 databases:
   - name: linkshelf-db
